@@ -19,11 +19,11 @@ export default function FooterComponent() {
           <b>Drop Your Information Bellow</b>
         </h6>
 
-        <div className='col l4 s12'>
+        <div className='col m4 s12'>
           <img className='responsive-img' src={Left} alt='bg' />
         </div>
 
-        <div className='col l4 s12'>
+        <div className='col m4 s12'>
           <div className='card'>
             <div className='card-content'>
               <div className='input-field one'>
@@ -53,7 +53,7 @@ export default function FooterComponent() {
           </div>
         </div>
 
-        <div className='col l4 s12'>
+        <div className='col m4 s12'>
           <img className='responsive-img' src={Right} alt='bg' />
         </div>
       </div>

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import bg from "../asset/bg.png";
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
-
 export default class HeaderComponent extends Component {
   componentDidMount() {
     M.Modal.init(this.Modal);
@@ -11,7 +10,7 @@ export default class HeaderComponent extends Component {
     return (
       <div className='row'>
         <div className='col s12 m6'>
-          <img className='responsive-img bg' src={bg} alt='bg' />
+          <img className='responsive-img' src={bg} />
         </div>
         <div className='col s12 m6'>
           <h4 className='font'>

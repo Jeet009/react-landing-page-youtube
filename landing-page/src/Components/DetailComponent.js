@@ -23,7 +23,7 @@ export default function DetailComponent() {
             </a>
           </div>
           <div className='col s12 m6'>
-            <img className='responsive-img bg' src={Detail} alt='bg' />
+            <img className='responsive-img' src={Detail} />
           </div>
         </div>
       </div>
